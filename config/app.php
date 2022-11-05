@@ -228,4 +228,13 @@ return [
 
     ],
 
+    /*
+   |--------------------------------------------------------------------------
+   | Spotify Authorization
+   |--------------------------------------------------------------------------
+   */
+
+    'spotify_key' => env('SPOTIFY_KEY'),
+    'spotify_secret' => env('SPOTIFY_SECRET'),
+    'spotify_api_token_url' => env('SPOTIFY_API_TOKEN_URL')
 ];
